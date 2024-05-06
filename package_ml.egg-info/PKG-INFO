@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: package-ml
+Version: 0.0.0
+Summary: Loan Prediction Model
+Home-page: https://github.com/madhusmita81
+Author: Madhu
+Author-email: madhu8000000@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10.14
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10.14
+Description-Content-Type: text/markdown
+
+
