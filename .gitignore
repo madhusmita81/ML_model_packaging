@@ -1,0 +1,4 @@
+.vscode/
+test.csv
+train.csv
+venv/

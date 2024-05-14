@@ -6,12 +6,12 @@ from package_ml.processing.datahandling import load_data, load_pipeline
 
 classification_pipeline= load_pipeline(config.MODEL_NAME)
 
-# def generate_predictions(data_input):
-#     data = pd.DataFrame(data_input)
-#     pred = classification_pipeline.predict(data[config.FEATURES])
-#     output = np.where(pred == 1, 'Y', 'N')
-#     result = {'prediction' : output}
-#     return result
+def generate_predictions(data_input):
+    data = pd.DataFrame(data_input)
+    pred = classification_pipeline.predict(data[config.FEATURES])
+    output = np.where(pred == 1, 'Y', 'N')
+    result = {'prediction' : output}
+    return result
 
 def generate_predictions():
     data = pd.DataFrame(config.TEST_FILE)
