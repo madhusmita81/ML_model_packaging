@@ -13,7 +13,7 @@ def generate_predictions(data_input):
     result = {'prediction' : output}
     return result
 
-def generate_predictions():
+def generate_test_predictions():
     data = pd.DataFrame(config.TEST_FILE)
     pred = classification_pipeline.predict(data[config.FEATURES])
     output = np.where(pred == 1, 'Y', 'N')
